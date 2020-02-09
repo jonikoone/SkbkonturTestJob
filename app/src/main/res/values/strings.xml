@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">Skb Kontur test job</string>
+    <string name="baseUrl" translatable="false">https://raw.githubusercontent.com/SkbkonturMobile/mobile-test-droid/master/json/</string>
+    <string name="search_title" translatable="false">Search</string>
+    <string name="title_toolbar_contacts_list" translatable="false">Contacts</string>
+    <string name="connectionFailed" translatable="false">Check your connection to Internet or retry later</string>
+    <string name="connectionOK" translatable="false">Connection is restored</string>
+    <string name="warning_message_connection_not_available" translatable="false">Connection is not available and cache is stale out</string>
+    <string name="title_toolbar_profile" translatable="false">Profile</string>
+    melancholic, sanguine, choleric, phlegmatic
+    <string name="type_melancholic">Melancholic</string>
+    <string name="type_sanguine">Sanguine</string>
+    <string name="type_choleric">Choleric</string>
+    <string name="type_phlegmatic">Phlegmatic</string>
+</resources>

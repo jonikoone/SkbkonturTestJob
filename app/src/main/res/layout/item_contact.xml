@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.jonikoone.skbkonturtestjob.viewmodel.ContactViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="@{() -> viewModel.showContact()}"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/item_contact_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/item_contact_height"
+            android:ellipsize="end"
+            android:text="@{viewModel.name}"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:text="Name Name" />
+
+        <TextView
+            android:id="@+id/item_contact_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_contact_name"
+            android:layout_marginTop="4dp"
+            android:layout_alignStart="@+id/item_contact_name"
+            android:text="@{viewModel.phone}"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="+7 (999) 999-1234" />
+
+        <TextView
+            android:id="@+id/item_contact_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@{viewModel.height.toString()}"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="195.2" />
+
+    </RelativeLayout>
+</layout>

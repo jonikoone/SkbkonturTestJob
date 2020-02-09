@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_title" translatable="false">Поиск</string>
+    <string name="title_toolbar_contacts_list" translatable="false">Контакты</string>
+    <string name="connectionFailed" translatable="false">Проверьте подключение к Интернету или повторите позже</string>
+    <string name="connectionOK" translatable="false">Подключение востановленно</string>
+    <string name="warning_message_connection_not_available" translatable="false">Подключение не установлено и время хранения кеша закончено</string>
+    <string name="title_toolbar_profile" translatable="false">Профиль</string>
+    <string name="type_melancholic">Меланхолик</string>
+    <string name="type_sanguine">Сагнотик</string>
+    <string name="type_choleric">Холерик</string>
+    <string name="type_phlegmatic">Флегматик</string>
+</resources>
